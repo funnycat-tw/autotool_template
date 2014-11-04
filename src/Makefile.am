@@ -1,4 +1,4 @@
-AM_CFLAGS = -I$(top_srcdir)/include
+AM_CFLAGS = -I$(top_srcdir)/src
 
 bin_PROGRAMS = mypackage
 mypackage_SOURCES = main.c
